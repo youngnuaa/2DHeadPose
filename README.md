@@ -18,12 +18,6 @@ are very effective. Our baseline approach surpasses most current state-of-the-ar
 methods. The annotation tool, dataset, and source code are publicly available at
 https://github.com/youngnuaa/2DHeadPose .
 
-LIST:
- annotation tool (uploaded)
- dataset （coming soon）
- source code （coming soon）
- 
- 
  
 The dataset baidu download path：https://pan.baidu.com/s/1CZPqyOMMCKNmV9uSLg8QNA?pwd=581p  code:581p
 
