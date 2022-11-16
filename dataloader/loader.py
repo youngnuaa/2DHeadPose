@@ -327,12 +327,12 @@ class Pose_300W_LP_random_add_mydata_ds(Dataset):
         self.annot_ext = annot_ext
 
 
-        self.my_datapaths = ["/home/data1/data_wy/widerface_pose/2",
-                             "/home/data1/data_wy/widerface_pose/9",
-                             "/home/data1/data_wy/widerface_pose/11",
+        self.my_datapaths = ["./data/2",
+                             "./data/9",
+                             "./data/11",
                              ]
 
-        self.my_databbxpath = "/home/data1/data_wy/widerface_pose/bbx"
+        self.my_databbxpath = "./data/bbx"
 
 
         self.filename_list = self.get_list_from_filenames(filename_path)
@@ -679,9 +679,9 @@ class OurData_test(Dataset):
         self.annot_ext = annot_ext
 
 
-        self.my_datapaths = ["/home/data1/data_wy/widerface_pose/5"]
+        self.my_datapaths = ["./data/5"]
 
-        self.my_databbxpath = "/home/data1/data_wy/widerface_pose/bbx"
+        self.my_databbxpath = "./data/bbx"
 
 
         self.dataset = []
